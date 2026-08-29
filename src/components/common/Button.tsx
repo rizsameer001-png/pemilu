@@ -37,7 +37,7 @@ export function Button({
 }: ButtonProps) {
   const { colors, brandColors } = useAppTheme();
 
-  let bgColor = brandColors.primary;
+  let bgColor: string = brandColors.primary;
   let textColor = '#FFFFFF';
   let borderColor = 'transparent';
   let borderWidth = 0;

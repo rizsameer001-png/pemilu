@@ -1,4 +1,4 @@
-import axios, { AxiosInstance, AxiosRequestConfig, InternalAxiosRequestConfig, AxiosResponse } from 'axios';
+import { create, type AxiosInstance, type AxiosRequestConfig, type InternalAxiosRequestConfig, type AxiosResponse } from 'axios';
 import { ENV } from '../config/env';
 import { storage } from '../utils/storage';
 import { parseApiError } from '../utils/errorHandler';
@@ -13,7 +13,7 @@ class ApiClient {
   private authToken: string | null = null;
 
   constructor() {
-    this.instance = axios.create({
+    this.instance = create({
       baseURL: ENV.BASE_URL,
       timeout: ENV.API_TIMEOUT_MS,
       headers: {

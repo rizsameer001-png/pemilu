@@ -18,6 +18,7 @@ export const CampaignRadius = {
   md: 12,
   lg: 16,
   xl: 20,
+  xxl: 24,
   round: 9999,
 } as const;
 
