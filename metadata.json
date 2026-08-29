@@ -1,6 +1,6 @@
 {
-  "name": "Pemilu Expo App",
-  "description": "Expo universal application featuring interactive home and explore guides, theme switching, and platform tutorials.",
+  "name": "ChunavAi Election Campaign OS",
+  "description": "Android-first election campaign management operating system for candidates, party leaders, campaign managers, volunteers, and survey intelligence.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

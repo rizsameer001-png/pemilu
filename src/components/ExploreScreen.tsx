@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { CollapsibleSection } from './CollapsibleSection';
 import { WebBadgeComponent } from './WebBadgeComponent';
-import { ExternalLink, Compass, Sun, Moon, Sparkles, Layers, Image as ImageIcon, Smartphone } from 'lucide-react';
+import { ExternalLink, Compass, Sun, Moon, Sparkles } from 'lucide-react';
 import tutorialWeb from '../../assets/images/tutorial-web.png';
 import reactLogo from '../../assets/images/react-logo.png';
 
