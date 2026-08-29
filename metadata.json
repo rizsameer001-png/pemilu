@@ -1,0 +1,6 @@
+{
+  "name": "Pemilu Expo App",
+  "description": "Expo universal application featuring interactive home and explore guides, theme switching, and platform tutorials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
